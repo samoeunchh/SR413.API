@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SR413.API.Models;
+using SR413.DataLayer;
 
 namespace SR413.API.Controllers
 {

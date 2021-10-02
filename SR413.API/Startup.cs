@@ -28,7 +28,7 @@ namespace SR413.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //Connection (LocalDB)\MSSQLLocalDB
+            //Connection (LocalDB)\MSSQLLocalDB;trust_connection=true;
             var ConnectionString = "Server=.;Database=SR413API;User Id=sa;Password=123;";
             services.AddDbContext<AppDbContext>(options => 
             options.UseSqlServer(ConnectionString));

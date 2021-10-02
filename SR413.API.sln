@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SR413.API", "SR413.API\SR413.API.csproj", "{4AEC502D-5E11-43B2-8EF2-71AFD9DC00E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SR413.API", "SR413.API\SR413.API.csproj", "{4AEC502D-5E11-43B2-8EF2-71AFD9DC00E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SR413.PresentationConsole", "SR413.PresentationConsole\SR413.PresentationConsole.csproj", "{6A002DA7-0435-427C-9765-8E102AB1FF87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SR413.DataLayer", "SR413.DataLayer\SR413.DataLayer.csproj", "{D9B9C940-6A0C-4F96-8FD9-8D2B8C0FC06E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4AEC502D-5E11-43B2-8EF2-71AFD9DC00E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AEC502D-5E11-43B2-8EF2-71AFD9DC00E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AEC502D-5E11-43B2-8EF2-71AFD9DC00E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A002DA7-0435-427C-9765-8E102AB1FF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A002DA7-0435-427C-9765-8E102AB1FF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A002DA7-0435-427C-9765-8E102AB1FF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A002DA7-0435-427C-9765-8E102AB1FF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B9C940-6A0C-4F96-8FD9-8D2B8C0FC06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B9C940-6A0C-4F96-8FD9-8D2B8C0FC06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B9C940-6A0C-4F96-8FD9-8D2B8C0FC06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B9C940-6A0C-4F96-8FD9-8D2B8C0FC06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
